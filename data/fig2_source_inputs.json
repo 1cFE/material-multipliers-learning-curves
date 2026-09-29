@@ -1,0 +1,89 @@
+{
+  "figure": 2,
+  "title": "Material multipliers in manufactured products",
+  "method": "Divide each finished cost or selling price by the material benchmark its source reports. Different cost boundaries and evidence types are explicit. No ratio is an industry-average manufacturing-efficiency measure or automatically removable-cost fraction.",
+  "verification_date": "2026-09-28",
+  "cases": [
+    {
+      "calculation_type": "price_ratio",
+      "material_share_interpretation": "No retained-material share is reported: this source does not provide an independently audited constituent-material inventory.",
+      "case_id": "open_steel_water_process_tank_2015",
+      "technology": "Open steel water/process tank, 70 m3",
+      "period": "2015 model",
+      "figure_label": "Steel water tank",
+      "figure_basis": "70 m³ open process tank · 2015 model",
+      "figure_source": "Fabricated cost / steel stock · Rohini et al.",
+      "figure_color": "#66794B",
+      "finished_value": 549845,
+      "material_price": 397858,
+      "material_quantity_basis": "design weights of steel plate and rolled sections",
+      "value_units": "INR per tank",
+      "numerator_boundary": "Modeled fabrication cost including steel material, fabrication processes and 5% overhead; baseline rolled-section design in Table 3.",
+      "material_boundary": "INR 235565 steel sections plus INR 162293 steel plate and connection plates. Industrial steel stock valued at assumed INR/kg rates. Not an elemental inventory.",
+      "evidence_status": "derived_from_engineering_fabrication_cost_model",
+      "formula": "549845 / (235565 + 162293) = 1.38201318058",
+      "limitations": "Small academic modeling study, not an observed supplier sale or industry average. Material-price provenance is weak. Ancillary materials and installation are not separately reconciled. Open water/process tank, not a pressurized or nuclear vessel. Other table columns have apparent unit-price inconsistencies; the chosen baseline cost sum is internally consistent.",
+      "sources": [
+        {
+          "title": "Rohini et al. (2015), A study on the optimization of rectangular steel storage tanks",
+          "url": "https://www.ripublication.com/ijaer10/ijaerv10n18_117.pdf#page=5",
+          "location": "Table 3, printed p. 39298, PDF page 5; baseline Rolled Steel Sections column."
+        }
+      ]
+    },
+    {
+      "calculation_type": "price_ratio",
+      "material_share_interpretation": "No retained-material share is reported: this source does not provide an independently audited constituent-material inventory.",
+      "case_id": "mass_produced_passenger_car_doe_2012",
+      "technology": "Mass-produced passenger car",
+      "period": "DOE 2012 assessment",
+      "figure_label": "Mass-produced passenger car",
+      "figure_basis": "DOE aggregate estimate · 2012",
+      "figure_source": "Selling price / raw-material value · DOE",
+      "figure_color": "#176A8A",
+      "finished_value": 8,
+      "material_price": 0.6,
+      "material_quantity_basis": "reported aggregate raw-material estimate",
+      "value_units": "USD per pound",
+      "numerator_boundary": "Average new passenger-car selling price, about USD8/lb; includes raw materials, manufacturing and processing, shipping, OEM profit and dealer markup.",
+      "material_boundary": "DOE reported average raw-material cost of USD0.60/lb, covering the car material mix rather than purchased components. Detailed procurement form and retained-versus-bought quantities are not disclosed.",
+      "evidence_status": "derived_from_federal_technology_assessment_aggregate_estimates",
+      "formula": "8 / 0.60 = 13.3333333333",
+      "limitations": "Historical aggregate estimate, not a current named-vehicle teardown. Source inputs rounded. Numerator is retail selling price rather than factory cost. No commodity-by-commodity bill or separately cited raw-material calculation in the passage. Uses paired dollar-per-pound figures; no whole-car bill derived from the passenger-inclusive vehicle weight.",
+      "sources": [
+        {
+          "title": "U.S. Department of Energy (2012), Report on the First Quadrennial Technology Review: Technology Assessments",
+          "url": "https://www.govinfo.gov/content/pkg/GOVPUB-E-PURL-gpo59801/pdf/GOVPUB-E-PURL-gpo59801.pdf#page=29",
+          "location": "Current Lightweighting Technology, printed p. 25, PDF page 29, paragraph beginning with average passenger-car weight."
+        }
+      ]
+    },
+    {
+      "case_id": "raptor_half_nozzle_jacket_2021",
+      "technology": "Raptor half-nozzle jacket",
+      "period": "2021",
+      "figure_label": "Raptor engine component",
+      "figure_basis": "Nozzle jacket · 2021 company estimate",
+      "figure_source": "Component cost / steel estimate · Isaacson",
+      "calculation_type": "price_ratio",
+      "finished_value": 13000,
+      "material_price": 200,
+      "material_quantity_basis": "undisclosed",
+      "material_share_interpretation": "Do not interpret the reciprocal of this ratio as retained-material share: the reported steel quantity basis is undisclosed. CSV material_value_share_percent is intentionally blank.",
+      "value_units": "USD per component",
+      "numerator_boundary": "Approximately $13000 half-nozzle-jacket component cost reported by SpaceX analyst Lucas Hughes in a meeting described by Walter Isaacson.",
+      "material_boundary": "Approximately $200 steel cost stated by Elon Musk for the single-piece steel component in the same meeting.",
+      "evidence_status": "ratio_of_reported_company_estimates_in_eyewitness_biography",
+      "formula": "13000 / 200 = 65",
+      "limitations": "Not an audited bill of materials or invoice. Alloy, mass, steel pricing date, bought-stock versus retained-mass treatment, scrap credits, and full component accounting boundary are undisclosed. One identified component, not a rocket-engine or aerospace-industry average. Meeting followed the August 2021 Starship surge; exact meeting date is not stated.",
+      "sources": [
+        {
+          "title": "Walter Isaacson, Elon Musk (2023), Chapter 59, Starship Surge; publisher-authorized excerpt on Space.com, October 3, 2023",
+          "url": "https://www.space.com/elon-musk-walter-isaacson-book-excerpt-starship-surge",
+          "location": "Subsection Raptor costs, exchange naming the half-nozzle jacket and its component and steel costs. Reprinted by permission of Simon & Schuster."
+        }
+      ],
+      "figure_color": "#C6612C"
+    }
+  ]
+}

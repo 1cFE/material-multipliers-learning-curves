@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="600" viewBox="0 0 1000 600">
+<rect width="1000" height="600" fill="white"/>
+<text x="100" y="29" font-family="Arial,DejaVu Sans,sans-serif" font-size="14" font-weight="bold" fill="#586777" text-anchor="start">FIGURE 2  /  SOURCED EXAMPLES</text>
+<text x="100" y="67" font-family="Arial,DejaVu Sans,sans-serif" font-size="28" font-weight="bold" fill="#18354A" text-anchor="start">Material multipliers in manufactured products</text>
+<text x="100" y="95" font-family="Arial,DejaVu Sans,sans-serif" font-size="18" font-weight="normal" fill="#586777" text-anchor="start">Each ratio retains its source&#x27;s cost and material boundaries</text>
+<polyline points="490.000,137.000 490.000,466.000" fill="none" stroke="#E2E7EB" stroke-width="1"/>
+<text x="490.0" y="492" font-family="Arial,DejaVu Sans,sans-serif" font-size="18" font-weight="normal" fill="#586777" text-anchor="middle">1×</text>
+<polyline points="550.959,137.000 550.959,466.000" fill="none" stroke="#E2E7EB" stroke-width="1"/>
+<text x="550.9585741219562" y="492" font-family="Arial,DejaVu Sans,sans-serif" font-size="18" font-weight="normal" fill="#586777" text-anchor="middle">2×</text>
+<polyline points="631.541,137.000 631.541,466.000" fill="none" stroke="#E2E7EB" stroke-width="1"/>
+<text x="631.5414258780438" y="492" font-family="Arial,DejaVu Sans,sans-serif" font-size="18" font-weight="normal" fill="#586777" text-anchor="middle">5×</text>
+<polyline points="692.500,137.000 692.500,466.000" fill="none" stroke="#E2E7EB" stroke-width="1"/>
+<text x="692.5" y="492" font-family="Arial,DejaVu Sans,sans-serif" font-size="18" font-weight="normal" fill="#586777" text-anchor="middle">10×</text>
+<polyline points="753.459,137.000 753.459,466.000" fill="none" stroke="#E2E7EB" stroke-width="1"/>
+<text x="753.4585741219562" y="492" font-family="Arial,DejaVu Sans,sans-serif" font-size="18" font-weight="normal" fill="#586777" text-anchor="middle">20×</text>
+<polyline points="834.041,137.000 834.041,466.000" fill="none" stroke="#E2E7EB" stroke-width="1"/>
+<text x="834.0414258780438" y="492" font-family="Arial,DejaVu Sans,sans-serif" font-size="18" font-weight="normal" fill="#586777" text-anchor="middle">50×</text>
+<polyline points="895.000,137.000 895.000,466.000" fill="none" stroke="#E2E7EB" stroke-width="1"/>
+<text x="895.0" y="492" font-family="Arial,DejaVu Sans,sans-serif" font-size="18" font-weight="normal" fill="#586777" text-anchor="middle">100×</text>
+<text x="65" y="167" font-family="Arial,DejaVu Sans,sans-serif" font-size="22" font-weight="bold" fill="#18354A" text-anchor="start">Steel water tank</text>
+<text x="65" y="193" font-family="Arial,DejaVu Sans,sans-serif" font-size="18" font-weight="normal" fill="#586777" text-anchor="start">70 m³ open process tank · 2015 model</text>
+<text x="65" y="218" font-family="Arial,DejaVu Sans,sans-serif" font-size="16" font-weight="normal" fill="#586777" text-anchor="start">Fabricated cost / steel stock · Rohini et al.</text>
+<polyline points="490.000,176.000 518.454,176.000" fill="none" stroke="#66794B" stroke-width="3"/>
+<circle cx="518.4537174677025" cy="176" r="6" fill="#66794B"/>
+<rect x="529.4537174677025" y="159" width="68" height="31" fill="white"/>
+<text x="535.4537174677025" y="184" font-family="Arial,DejaVu Sans,sans-serif" font-size="23" font-weight="bold" fill="#66794B" text-anchor="start">≈ 1.4×</text>
+<text x="65" y="280" font-family="Arial,DejaVu Sans,sans-serif" font-size="22" font-weight="bold" fill="#18354A" text-anchor="start">Mass-produced passenger car</text>
+<text x="65" y="306" font-family="Arial,DejaVu Sans,sans-serif" font-size="18" font-weight="normal" fill="#586777" text-anchor="start">DOE aggregate estimate · 2012</text>
+<text x="65" y="331" font-family="Arial,DejaVu Sans,sans-serif" font-size="16" font-weight="normal" fill="#586777" text-anchor="start">Selling price / raw-material value · DOE</text>
+<polyline points="490.000,289.000 717.800,289.000" fill="none" stroke="#176A8A" stroke-width="3"/>
+<circle cx="717.8000941631808" cy="289" r="6" fill="#176A8A"/>
+<rect x="728.8000941631808" y="272" width="68" height="31" fill="white"/>
+<text x="734.8000941631808" y="297" font-family="Arial,DejaVu Sans,sans-serif" font-size="23" font-weight="bold" fill="#176A8A" text-anchor="start">≈ 13×</text>
+<text x="65" y="393" font-family="Arial,DejaVu Sans,sans-serif" font-size="22" font-weight="bold" fill="#18354A" text-anchor="start">Raptor engine component</text>
+<text x="65" y="419" font-family="Arial,DejaVu Sans,sans-serif" font-size="18" font-weight="normal" fill="#586777" text-anchor="start">Nozzle jacket · 2021 company estimate</text>
+<text x="65" y="444" font-family="Arial,DejaVu Sans,sans-serif" font-size="16" font-weight="normal" fill="#586777" text-anchor="start">Component cost / steel estimate · Isaacson</text>
+<polyline points="490.000,402.000 857.115,402.000" fill="none" stroke="#C6612C" stroke-width="3"/>
+<circle cx="857.1149547201783" cy="402" r="6" fill="#C6612C"/>
+<rect x="868.1149547201783" y="385" width="68" height="31" fill="white"/>
+<text x="874.1149547201783" y="410" font-family="Arial,DejaVu Sans,sans-serif" font-size="23" font-weight="bold" fill="#C6612C" text-anchor="start">≈ 65×</text>
+<text x="692.5" y="532" font-family="Arial,DejaVu Sans,sans-serif" font-size="18" font-weight="normal" fill="#18354A" text-anchor="middle">Cost-to-material ratio (logarithmic scale)</text>
+<text x="70" y="578" font-family="Arial,DejaVu Sans,sans-serif" font-size="17" font-weight="normal" fill="#586777" text-anchor="start">Different accounting boundaries. These ratios do not measure removable cost.</text>
+</svg>

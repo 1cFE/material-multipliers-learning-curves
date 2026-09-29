@@ -1,0 +1,4 @@
+scenario,description,foak_usd_per_mwh,assumed_noak_floor_usd_per_mwh,total_lcoe_learning_rate,last_unassisted_plant,first_competitive_plant,first_plant_at_assumed_noak_floor,additional_contract_support_usd
+A,Lower starting cost,110,65,0.2,no stall,3,6,0.0
+B,"Higher start, faster learning",220,35,0.2,16,24,302,446606570.5720344
+C,"Higher start, slower learning",220,35,0.15,4,75,2541,11196068355.992971

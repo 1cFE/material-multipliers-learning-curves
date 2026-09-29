@@ -1,0 +1,3 @@
+technology,start_year,end_year,learning_rate,cost_measure,experience_measure,source,source_url
+PV modules,1980,2025,0.266,inflation-adjusted module price per peak watt,cumulative module production in peak watts,"Fraunhofer ISE (2026a), pp.53-54",https://www.ise.fraunhofer.de/content/dam/ise/de/documents/publications/studies/Photovoltaics-Report.pdf
+"Lithium-ion cells, all types",1992,2016,0.189,inflation-adjusted cell price per kWh,cumulative cell energy capacity produced in MWh,"Ziegler and Trancik (2021), Table1",https://doi.org/10.1039/D0EE02681F

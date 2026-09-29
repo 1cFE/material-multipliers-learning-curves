@@ -1,0 +1,8 @@
+case,quantity,value,unit,status
+magnet_floor_example,cost_after_three_doublings,5.608000000000001,million USD,calculated hypothetical example
+magnet_floor_example,cost_after_six_doublings,3.359296000000001,million USD,calculated hypothetical example
+magnet_floor_example,doublings_to_two_million,9.846686424033358,doublings,calculated hypothetical example
+magnet_floor_example,cumulative_production_ratio,920.7632380414998,ratio to reference output,calculated hypothetical example
+early_market,doublings_from_100_to_800,3.0,doublings,calculated hypothetical example
+early_market,cost_ratio_after_three_doublings,0.5120000000000001,ratio,calculated hypothetical example
+early_market,cumulative_units_after_six_doublings,6400,units,calculated hypothetical example

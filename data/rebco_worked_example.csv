@@ -1,0 +1,10 @@
+parameter,value,evidence_status
+initial_magnet_share_of_plant_capital,0.30000000,chosen_assumption
+initial_tape_share_of_magnet_cost,0.80000000,chosen_assumption
+tape_quantity_ratio,0.75000000,chosen_assumption
+tape_price_per_meter_ratio,0.80000000,chosen_assumption
+tape_bill_ratio,0.60000000,calculated_scenario_result
+magnet_cost_ratio,0.68000000,calculated_scenario_result
+plant_capital_ratio,0.90400000,calculated_scenario_result
+magnet_cost_reduction,0.32000000,calculated_scenario_result
+plant_capital_reduction,0.09600000,calculated_scenario_result

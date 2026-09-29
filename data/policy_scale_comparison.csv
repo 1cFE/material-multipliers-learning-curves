@@ -1,0 +1,8 @@
+quantity,value,unit,period,status
+German net electricity consumption,471.0,TWh,2024,source observation
+US electricity end use,4110.422,TWh,2024,source observation
+Historical German PV FIT differential costs,100,billion EUR,through 2020,approximate source aggregate
+EUR to USD annual average,1.0824,USD per EUR,2024,source observation
+Demand ratio,8.727010615711253,ratio,2024 normalization,calculated
+"US-scaled support, euros",872.7010615711251,billion EUR,historical aggregate normalized to 2024 demand,illustrative calculation
+"US-scaled support, dollars",944.6116290445859,billion USD,illustrative 2024 FX conversion; no inflation rebasing,illustrative calculation

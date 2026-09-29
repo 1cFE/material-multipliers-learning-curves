@@ -1,0 +1,4 @@
+first_plant,last_plant,maximum_price_usd_per_mwh
+1,4,240
+5,16,140
+17,unlimited in this model,80

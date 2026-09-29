@@ -1,0 +1,10 @@
+# Public repository: code, data, figures and the published text only.
+# Drafts, change lists, review notes and reading copies stay in the private working folder.
+*draft*
+*CHANGELOG*
+*PUBLICATION-NOTES*
+*change-list*
+*review*
+*-v0.*
+*.docx
+.DS_Store
