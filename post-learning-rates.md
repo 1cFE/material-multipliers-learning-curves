@@ -292,7 +292,7 @@ The [public GitHub repository](https://github.com/1cFE/material-multipliers-lear
 
 ## Conflict of interest
 
-Damien Scott is a co-founder of Borealis Fusion, a company developing proton-boron-11 fusion. This analysis was produced within the 1cFE residency at Astera Institute. The assumptions and sources are published in full so that readers can check the work.
+Damien Scott is a co-founder of Borealis Fusion, a company developing proton-boron-11 fusion. Astera Institute is an investor in Borealis Fusion. This analysis was produced within the 1cFE residency at Astera Institute. The assumptions and sources are published in full so that readers can check the work.
 
 ## References
 
