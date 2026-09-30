@@ -240,8 +240,8 @@ COMPONENTS = [
 ]
 
 
-def figure3():
-    fig=Figure(4,'AUTHOR-CHOSEN SCREENING BANDS','Component scenarios to test',
+def figure3(number=4, stem='fig4_component_plane', *, wrapped_labels=False):
+    fig=Figure(number,'AUTHOR-CHOSEN SCREENING BANDS','Component scenarios to test',
                'Illustrative assumptions for eight component classes')
     left,right,top,bottom=105,680,140,440
     x=lambda m:left+(right-left)*math.log10(m)/math.log10(130)
@@ -274,10 +274,22 @@ def figure3():
         fig.line([(x(lo),y(rl)),(x(lo),y(rh)),(x(hi),y(rh)),(x(hi),y(rl)),(x(lo),y(rl))],color,3,dash)
         # Leader starts on the region boundary and has no point marker.
         fig.line([(x(hi),y(edge_rate)),(697,ly-7),(718,ly-7)],color,1.3)
-        fig.text(729,ly,label,20,color,bold=True)
-        fig.text(729,ly+25,band,19,color)
+        if wrapped_labels:
+            lines={
+                'A': ('HTS magnet /', 'IMG pulser'),
+                'B': ('IFE laser', 'driver'),
+                'C': ('Wall /', 'tritium processing'),
+                'D': ('Vessel /', 'helium cryogenics'),
+                'E': ('Steam balance', 'of plant'),
+            }[key]
+            for i,line in enumerate(lines):
+                fig.text(729,ly-8+20*i,line,18,color,bold=True)
+            fig.text(729,ly+33,band,18,color)
+        else:
+            fig.text(729,ly,label,20,color,bold=True)
+            fig.text(729,ly+25,band,19,color)
     fig.footer('Chosen scenarios, not estimates. Include zero learning; production growth is a separate input.')
-    fig.save('fig4_component_plane')
+    fig.save(stem)
     rows=[]
     for item in COMPONENTS:
         for case in ('screening_band','no_learning_comparator'):
@@ -294,15 +306,15 @@ def figure3():
                 'engineering_floor':'must be justified separately',
                 'plant_cost_share':'must be specified separately',
                 'mechanism_source_url':item['source']})
-    write_csv('fig4_component_plane.csv',rows)
+    write_csv(f'{stem}.csv',rows)
 
 
-def figure4():
+def figure4(number=5, stem='fig5_rebco_cost_shares', *, write_worked_example=True):
     magnet_share,tape_share,qratio,pratio=.30,.80,.75,.80
     tape=qratio*pratio
     magnet=tape_share*tape+(1-tape_share)
     plant=(1-magnet_share)+magnet_share*magnet
-    fig=Figure(5,'CALCULATED EXAMPLE','From tape saving to plant saving',
+    fig=Figure(number,'CALCULATED EXAMPLE','From tape saving to plant saving',
                'Three cost accounts, each normalized to its own initial value of 100')
     left,right,top,bottom=245,805,150,462
     x=lambda v:left+(right-left)*v/110
@@ -326,8 +338,10 @@ def figure4():
         fig.text(lx+27,139,label,18,MUTED)
     fig.text((left+right)/2,531,'Cost index (own baseline = 100)',20,anchor='middle')
     fig.footer('Chosen inputs: magnets = 30% of plant capital; tape = 80% of magnet cost. Each baseline = 100.')
-    fig.save('fig5_rebco_cost_shares')
-    write_csv('fig5_rebco_cost_shares.csv',rows)
+    fig.save(stem)
+    write_csv(f'{stem}.csv',rows)
+    if not write_worked_example:
+        return
     inputs={'initial_magnet_share_of_plant_capital':magnet_share,'initial_tape_share_of_magnet_cost':tape_share,
             'tape_quantity_ratio':qratio,'tape_price_per_meter_ratio':pratio}
     outputs={'tape_bill_ratio':tape,'magnet_cost_ratio':magnet,'plant_capital_ratio':plant,

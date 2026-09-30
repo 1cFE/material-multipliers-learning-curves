@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="600" viewBox="0 0 1000 600">
+<rect width="1000" height="600" fill="white"/>
+<text x="100" y="29" font-family="Arial,DejaVu Sans,sans-serif" font-size="14" font-weight="bold" fill="#586777" text-anchor="start">FIGURE 4  /  CALCULATED EXAMPLE</text>
+<text x="100" y="67" font-family="Arial,DejaVu Sans,sans-serif" font-size="28" font-weight="bold" fill="#18354A" text-anchor="start">From tape saving to plant saving</text>
+<text x="100" y="95" font-family="Arial,DejaVu Sans,sans-serif" font-size="18" font-weight="normal" fill="#586777" text-anchor="start">Three cost accounts, each normalized to its own initial value of 100</text>
+<polyline points="245.000,150.000 245.000,462.000" fill="none" stroke="#E2E7EB" stroke-width="1"/>
+<text x="245.0" y="490" font-family="Arial,DejaVu Sans,sans-serif" font-size="18" font-weight="normal" fill="#586777" text-anchor="middle">0</text>
+<polyline points="346.818,150.000 346.818,462.000" fill="none" stroke="#E2E7EB" stroke-width="1"/>
+<text x="346.8181818181818" y="490" font-family="Arial,DejaVu Sans,sans-serif" font-size="18" font-weight="normal" fill="#586777" text-anchor="middle">20</text>
+<polyline points="448.636,150.000 448.636,462.000" fill="none" stroke="#E2E7EB" stroke-width="1"/>
+<text x="448.6363636363636" y="490" font-family="Arial,DejaVu Sans,sans-serif" font-size="18" font-weight="normal" fill="#586777" text-anchor="middle">40</text>
+<polyline points="550.455,150.000 550.455,462.000" fill="none" stroke="#E2E7EB" stroke-width="1"/>
+<text x="550.4545454545455" y="490" font-family="Arial,DejaVu Sans,sans-serif" font-size="18" font-weight="normal" fill="#586777" text-anchor="middle">60</text>
+<polyline points="652.273,150.000 652.273,462.000" fill="none" stroke="#E2E7EB" stroke-width="1"/>
+<text x="652.2727272727273" y="490" font-family="Arial,DejaVu Sans,sans-serif" font-size="18" font-weight="normal" fill="#586777" text-anchor="middle">80</text>
+<polyline points="754.091,150.000 754.091,462.000" fill="none" stroke="#E2E7EB" stroke-width="1"/>
+<text x="754.090909090909" y="490" font-family="Arial,DejaVu Sans,sans-serif" font-size="18" font-weight="normal" fill="#586777" text-anchor="middle">100</text>
+<text x="222" y="211" font-family="Arial,DejaVu Sans,sans-serif" font-size="23" font-weight="bold" fill="#18354A" text-anchor="end">Tape bill</text>
+<rect x="245" y="172" width="509.090909090909" height="26" fill="#B5C1CB"/>
+<text x="764.090909090909" y="192" font-family="Arial,DejaVu Sans,sans-serif" font-size="20" font-weight="bold" fill="#18354A" text-anchor="start">100</text>
+<rect x="245" y="212" width="305.4545454545455" height="26" fill="#176A8A"/>
+<text x="560.4545454545455" y="232" font-family="Arial,DejaVu Sans,sans-serif" font-size="20" font-weight="bold" fill="#18354A" text-anchor="start">60</text>
+<text x="872" y="206" font-family="Arial,DejaVu Sans,sans-serif" font-size="24" font-weight="bold" fill="#18354A" text-anchor="middle">40%</text>
+<text x="872" y="232" font-family="Arial,DejaVu Sans,sans-serif" font-size="19" font-weight="normal" fill="#18354A" text-anchor="middle">saving</text>
+<text x="222" y="321" font-family="Arial,DejaVu Sans,sans-serif" font-size="23" font-weight="bold" fill="#18354A" text-anchor="end">Magnet cost</text>
+<rect x="245" y="282" width="509.090909090909" height="26" fill="#B5C1CB"/>
+<text x="764.090909090909" y="302" font-family="Arial,DejaVu Sans,sans-serif" font-size="20" font-weight="bold" fill="#18354A" text-anchor="start">100</text>
+<rect x="245" y="322" width="346.18181818181824" height="26" fill="#176A8A"/>
+<text x="601.1818181818182" y="342" font-family="Arial,DejaVu Sans,sans-serif" font-size="20" font-weight="bold" fill="#18354A" text-anchor="start">68</text>
+<text x="872" y="316" font-family="Arial,DejaVu Sans,sans-serif" font-size="24" font-weight="bold" fill="#18354A" text-anchor="middle">32%</text>
+<text x="872" y="342" font-family="Arial,DejaVu Sans,sans-serif" font-size="19" font-weight="normal" fill="#18354A" text-anchor="middle">saving</text>
+<text x="222" y="431" font-family="Arial,DejaVu Sans,sans-serif" font-size="23" font-weight="bold" fill="#18354A" text-anchor="end">Plant capital</text>
+<rect x="245" y="392" width="509.090909090909" height="26" fill="#B5C1CB"/>
+<text x="764.090909090909" y="412" font-family="Arial,DejaVu Sans,sans-serif" font-size="20" font-weight="bold" fill="#18354A" text-anchor="start">100</text>
+<rect x="245" y="432" width="460.21818181818173" height="26" fill="#176A8A"/>
+<text x="715.2181818181817" y="452" font-family="Arial,DejaVu Sans,sans-serif" font-size="20" font-weight="bold" fill="#18354A" text-anchor="start">90.4</text>
+<text x="872" y="426" font-family="Arial,DejaVu Sans,sans-serif" font-size="24" font-weight="bold" fill="#18354A" text-anchor="middle">9.6%</text>
+<text x="872" y="452" font-family="Arial,DejaVu Sans,sans-serif" font-size="19" font-weight="normal" fill="#18354A" text-anchor="middle">saving</text>
+<rect x="590" y="123" width="18" height="15" fill="#B5C1CB"/>
+<text x="617" y="139" font-family="Arial,DejaVu Sans,sans-serif" font-size="18" font-weight="normal" fill="#586777" text-anchor="start">Before</text>
+<rect x="735" y="123" width="18" height="15" fill="#176A8A"/>
+<text x="762" y="139" font-family="Arial,DejaVu Sans,sans-serif" font-size="18" font-weight="normal" fill="#586777" text-anchor="start">After</text>
+<text x="525.0" y="531" font-family="Arial,DejaVu Sans,sans-serif" font-size="20" font-weight="normal" fill="#18354A" text-anchor="middle">Cost index (own baseline = 100)</text>
+<text x="70" y="578" font-family="Arial,DejaVu Sans,sans-serif" font-size="17" font-weight="normal" fill="#586777" text-anchor="start">Chosen inputs: magnets = 30% of plant capital; tape = 80% of magnet cost. Each baseline = 100.</text>
+</svg>
