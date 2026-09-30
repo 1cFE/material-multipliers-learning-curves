@@ -10,6 +10,18 @@ All inputs are chosen illustrations. Full assumptions, the cost equation and sup
 
 Figure 2 uses an open steel water/process tank (about 1.4×), a mass-produced passenger car (about 13×) and a Raptor engine nozzle-jacket component (about 65×). The tank is a fabrication model, the car uses a selling-price estimate, and the Raptor part uses reported company estimates. The sources have different material and cost boundaries, stated in the article, figure and input data. Each case's source location, arithmetic, cost boundary and limitations are in `fig2_source_inputs.json`.
 
+### Updated Figure 2: US whole-product comparison
+
+`fig2_us_product_inputs.json` and its generated CSV document a separate version with two panels. The [DOE technology assessment](https://www.govinfo.gov/content/pkg/GOVPUB-E-PURL-gpo59801/pdf/GOVPUB-E-PURL-gpo59801.pdf#page=29), printed p. 25, provides the car's aggregate selling-price and raw-material estimates: $8/lb and $0.60/lb. Their ratio is 13.33, displayed as approximately 13×.
+
+[Potter's May 2026 analysis](https://www.construction-physics.com/p/where-are-the-economies-of-scale), using Craftsman's National Construction Estimator, gives the US house's approximate 50% purchased-input share of hard construction cost. A normalized cost index of 100 divided by 50 gives approximately 2×. These indices are not dollar costs. Purchased materials and components already contain upstream manufacturing. Land and other development costs are outside the numerator. Footnote 4 explains the difference from a raw-material calculation.
+
+The panels do not establish comparable manufacturing-efficiency scores. Both retain their source's accounting boundaries. No new figure or calculation replaces the earlier files used by the retained article.
+
+### Medicines as an example of value beyond ingredients
+
+[CBO (2022), Box 3](https://www.cbo.gov/publication/57772), distinguishes low incremental manufacturing costs for small-molecule brand-name drugs from the expense and risk of development and approval. It also describes the effect of market power and exclusivity on prices. Incremental manufacturing cost is broader than raw-material cost. This source supports a qualitative example, not a numerical material multiplier or a claim that every price premium represents necessary work.
+
 ## Figure 3: floors and residual learning
 
 Reference cost index C0 = 100. The three floor indices are 10, 40 and 70. The residual learning rate is 20% per cumulative-production doubling. C(D) = F + (100-F) × 0.8^D. At eight doublings the cost indices are 25.0994944, 50.0663296 and 75.0331648.

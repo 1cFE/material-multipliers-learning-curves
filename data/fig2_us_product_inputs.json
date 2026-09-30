@@ -1,0 +1,56 @@
+{
+  "figure": 2,
+  "title": "Cost and material inputs in two US products",
+  "method": "Display two source-based cost-to-input ratios in separate panels. The passenger-car denominator is a reported raw-material estimate. The house denominator includes purchased building materials and components and is not a raw-material estimate. The bars use different units and do not share an axis.",
+  "verification_date": "2026-09-29",
+  "cases": [
+    {
+      "case_id": "us_passenger_car_doe_2012",
+      "technology": "Mass-produced passenger car",
+      "geography": "United States",
+      "period": "DOE assessment published in 2012; historical aggregate, not a current vehicle estimate",
+      "numerator_value": 8.0,
+      "input_value": 0.6,
+      "value_units": "USD per pound of vehicle",
+      "numerator_boundary": "Average passenger-car selling price. Includes raw materials, manufacturing and processing, shipping, OEM profit, and dealer markup.",
+      "input_boundary": "DOE reported aggregate raw-material value for the car's material mix. This is not a purchased-components bill of materials.",
+      "ratio_name": "selling_price_to_raw_material_value",
+      "is_raw_material_ratio": true,
+      "formula": "8.0 / 0.6 = 13.333333333333334",
+      "display_ratio": "approximately 13x",
+      "evidence_status": "derived_from_federal_technology_assessment_rounded_aggregate_estimates",
+      "limitations": "Historical rounded aggregate, not a named vehicle teardown or a current US price benchmark. The passage does not disclose a commodity-by-commodity inventory, detailed procurement forms, or retained-versus-purchased quantities. Retail selling price is not factory manufacturing cost. The ratio does not measure removable cost, profit, or a directly observed learning rate. No whole-car dollar bill is inferred from a passenger-inclusive weight.",
+      "sources": [
+        {
+          "title": "U.S. Department of Energy (2012), Report on the First Quadrennial Technology Review: Technology Assessments",
+          "url": "https://www.govinfo.gov/content/pkg/GOVPUB-E-PURL-gpo59801/pdf/GOVPUB-E-PURL-gpo59801.pdf#page=29",
+          "location": "Current Lightweighting Technology, printed p. 25, PDF page 29. Paired average passenger-car selling-price and raw-material estimates in dollars per pound."
+        }
+      ]
+    },
+    {
+      "case_id": "us_single_family_house_potter_2026",
+      "technology": "US single-family house construction",
+      "geography": "United States",
+      "period": "Potter article published May 28, 2026; underlying construction-estimator price year unspecified in the article",
+      "numerator_value": 100.0,
+      "input_value": 50.0,
+      "value_units": "normalized index with hard construction cost equal to 100; not currency",
+      "numerator_boundary": "Hard construction cost of the physical house. Excludes land and the broader development, financing, and sales-price boundary.",
+      "input_boundary": "Purchased building materials and components used by the builder, including processed inputs. These are not their constituent raw commodities.",
+      "ratio_name": "hard_construction_cost_to_purchased_building_inputs",
+      "is_raw_material_ratio": false,
+      "formula": "100 / 50 = 2; normalization of source's approximately 50% material / 50% labor shares",
+      "display_ratio": "approximately 2x",
+      "evidence_status": "derived_from_author_analysis_citing_Craftsmans_National_Construction_Estimator",
+      "limitations": "Approximate share-based comparison, not a quoted dollar cost for a named house, a median home sale price, or a complete constituent-material inventory. Potter explicitly notes in footnote 4 that his examples can include purchased components. The 50% share is not a raw-material floor for a house. The example's denominator and numerator differ from those of the car, so their ratios do not rank intrinsic efficiency or removable cost. Normalized values 100 and 50 are display units, not invented prices.",
+      "sources": [
+        {
+          "title": "Brian Potter (May 28, 2026), Where Are the Economies of Scale in Homebuilding?",
+          "url": "https://www.construction-physics.com/p/where-are-the-economies-of-scale",
+          "location": "Section What prevents economies of scale in homebuilding?, paragraphs beginning Armed with this concept and The most important takeaway; footnote 4 distinguishes purchased components from raw materials. Potter cites Craftsman's National Construction Estimator for the house breakdown."
+        }
+      ]
+    }
+  ]
+}
