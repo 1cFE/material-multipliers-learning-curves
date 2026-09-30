@@ -2,6 +2,14 @@
 
 Prepared 24 September 2026. All numerical screening bands are chosen assumptions. Mechanism sources explain manufacturing processes and qualification constraints; they do not supply the bands.
 
+## Revised figure order and learning-rate sensitivity
+
+The structural revision uses `fig4_rebco_cost_shares` for the REBCO example and `fig5_component_plane` for the component assumptions. Their corresponding CSVs are numerically identical to the earlier Figure 5 and Figure 4 files. The notes below retain the original numbering for the original artifacts. `make_structural_revision_figures.py` generates the new versions without replacing those files. The revised component figure wraps labels so that the full text fits.
+
+`residual_learning_sensitivity.csv` applies the article's residual-learning equation to the same hypothetical magnet at two chosen rates. Initial cost is $10 million, constituent-material value is $200,000, engineering floor is $1 million, and target cost is $2 million. The residual above the engineering floor starts at $9 million. None of these inputs is a supplier estimate.
+
+At a 10% residual rate, the target requires 20.8543453268 doublings and cumulative production of 1,895,760.5577 times the reference amount. At 20%, it requires 9.8466864240 doublings and 920.7632 times the reference amount. The number of doublings falls to 47.2165% of the former value. This is not a halving of production volume or elapsed time. It is a model sensitivity, not an AI forecast or a measured learning effect. Figure 1's rate applies to total LCOE and cannot be substituted for these residual rates.
+
 ## Figure 1: FOAK-to-NOAK deployment and demand support
 
 All inputs are chosen illustrations. Full assumptions, the cost equation and support accounting are in `fig1_model_assumptions.md`. `make_demand_figure.py` generates the figure and three CSVs. Its simplified total-LCOE rate is distinct from the residual rate used in Figure 3. The modeled commitments cover contract-price gaps only. They do not estimate the full cost of commercializing fusion.

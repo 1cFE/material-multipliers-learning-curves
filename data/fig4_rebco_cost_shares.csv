@@ -1,0 +1,7 @@
+account,case,cost_index,initial_cost_index,scenario_reduction_fraction,evidence_status,normalization
+Tape bill,Before,100.00000000,100,0.40000000,calculated_chosen_scenario,each account independently normalized to own baseline
+Tape bill,After,60.00000000,100,0.40000000,calculated_chosen_scenario,each account independently normalized to own baseline
+Magnet cost,Before,100.00000000,100,0.32000000,calculated_chosen_scenario,each account independently normalized to own baseline
+Magnet cost,After,68.00000000,100,0.32000000,calculated_chosen_scenario,each account independently normalized to own baseline
+Plant capital,Before,100.00000000,100,0.09600000,calculated_chosen_scenario,each account independently normalized to own baseline
+Plant capital,After,90.40000000,100,0.09600000,calculated_chosen_scenario,each account independently normalized to own baseline
